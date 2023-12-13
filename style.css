@@ -1,0 +1,449 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(245,248,250);
+    color: black;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    
+
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+    
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    background: red;
+    top: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    margin-top: 20%;
+    font-size: 20px;
+    padding-top: 20%;
+}
+.header-text h1{
+    font-size: 60px;
+    color: black;
+}
+.header-text p span{
+    color: rgb(2, 4, 4);
+    font-size: 30px;
+}
+.header-text .pics{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.pics img{
+    width: 450px;
+    height: 450px;
+
+}
+.pics img{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    right: 10px;
+    margin-left: 0%;
+    margin-top: 40%;
+    margin-right: 10%;
+    border-radius: 50%;
+    margin-bottom: 10%;
+   
+}
+.ooo{
+    width: 200%;
+    height: 100vh;
+   padding-right: 50%;
+    margin-right: 50%;
+background-color: blueviolet;
+}
+section{
+    width: 100%;
+    height: 90vh;
+    scroll-snap-align: start;
+    background-color:rgb(247,248,250);
+}
+.mom{
+    width: 100%;
+    display: flex;
+}
+.about{
+    color: black;
+}
+.about h1{
+    font-size: 50px;
+    padding-left: 20px;
+}
+.about p{
+    color: blue;
+    padding-left: 20px;
+}
+/* .about2{
+    padding-top: 10%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about2 p{
+    padding-left: 50%;
+    padding-bottom: 20%;
+} */
+/* .about2 
+/* .about2 h2{
+    padding-right: 50%;
+    padding-bottom: 20%;
+} */ */
+/* .about2 h2{
+display: flex;
+flex-direction: row;
+width: fit-content;
+} */
+
+.ab1{
+    width: 50%;
+}
+
+.test{
+    width: fit-content;
+    color: rgb(25, 134, 207);
+    font-size: 20px;
+}
+
+.about2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.ab1{
+    width: 150%;
+}
+.mom{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.last1{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.last div{
+   display: grid
+}
+.stuffs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.last1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.one{
+    width: 350px;
+    padding-top: 40px;
+    border-right: 1px solid  lightgray;
+    height: 200px;
+    transition: 0.5s;
+}
+.two{
+    padding-top: 40px;
+    width: 350px;
+    border-right: 1px solid  lightgray;
+    height: 200px;
+    transition: 0.5s;
+    
+}
+.one:hover{
+    box-shadow: 10px 10px 10px rgb(207, 133, 133);
+    border: 10px;
+}
+.two:hover{
+    box-shadow: 10px 10px 10px rgb(207, 133, 133);
+    border: 10px;
+}
+.three:hover{
+    box-shadow: 10px 10px 10px rgb(207, 133, 133);
+    border: 10px;
+}
+
+.three{
+    padding-top: 40px;
+    width: 350px;
+    border-right: 1px solid  lightgray;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.ss{
+    background-image: url(page\ 3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+
+}
+.mother1{
+    width: 100%;
+    height: 100vh;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.son1{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+   
+}
+.son2{
+    width: 90%;
+    height: 30px;
+    background-color: rgb(0,155,223);
+    border-radius: 10px;
+}
+.son3{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+}
+.son4{
+    width: 20%;
+    height: 30px;
+    background-color: rgb(0,155,223);
+    border-radius: 10px;
+}
+.son5{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+}
+.son6{
+    width: 10%;
+    height: 30px;
+    background-color: rgb(0,155,223);
+    border-radius: 10px;
+}
+.son7{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+}
+.son8{
+    width: 28%;
+    height: 30px;
+    background-color: rgb(0,155,223);
+    border-radius: 10px;
+}
+.mother1 p{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+
+
+
+
+.mmm1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgb(249, 242, 242);
+
+}
+.family{
+    padding-left: 20px;
+   
+}
+.family p{
+    padding-top: 25px;
+}
+.family h1{
+    font-size: 50px;
+   color: rgb(0,155,223);
+   
+   
+}
+.family h1:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.5;
+    
+
+}
+.grand-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10%;
+    gap: 10%;
+    
+}
+.mymy{
+    padding-bottom: 10%;
+}
+.grand-parent p{
+    padding-top: 40px;
+    width: 350px;
+    border-right: 1px solid  lightgray;
+    height: 200px;
+    background-color: blueviolet;
+    gap: 25%;
+    flex-direction: row;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.grand-parent p:hover{
+    box-shadow: 0px 0px 10px 0px red;
+    border-radius: 30px;
+}
+
+footer{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: space-between;
+   scroll-snap-align: start;
+   background-color: rgb(255,255,255);
+   padding: 0 50px;
+   
+
+   
+}
+footer div{
+   display: flex;
+   flex-direction: column;
+   margin-top: 50px;
+   gap: 10px;
+}
+div a{
+   text-decoration: none;
+   color: black;
+   font-size: 15px;
+   padding: 5px;
+   
+   
+
+}
+
+
+.ft1{
+   /* top: 50%; */
+   flex-direction: row;
+   color: black;
+   width: 10px;
+   padding-left: 50px;
+   display: flex;
+   align-items: center;
+   
+
+}
+.get{
+    text-decoration: underline;
+    font-size: 100%;
+    gap: 20%;
+    padding-left: 50px;
+    padding-bottom: 90px;
+    transition: 0.5s;
+}
+.get:hover{
+    color:rgb(0,155,223) ;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 150%;
+}
+div .social2{
+    padding-left: 50%;
+}
+fa-arrow-right{
+width: 100%;
+height: 100vh;
+}
+.all{
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    
+    /* flex-direction: row; */
+    grid-template-rows: repeat(2,1fr);
+    padding-left: 20px;
+    
+}
+.childl{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    gap: 5%;
+
+}
+.childl img{
+    width: 100%;
+    height: 30hv;
+    padding-top: 50%;
+}
+.box3 img{
+    width: 100%;
+    height: 30hv;
+    padding-top: 50%;
+} 
